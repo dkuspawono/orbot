@@ -6,9 +6,9 @@ android {
 
     defaultConfig {
         applicationId "org.torproject.android"
-        minSdkVersion 16
-        targetSdkVersion 23
-
+        minSdkVersion 9 
+        targetSdkVersion 14
+	maxSdkVersion 15
     }
 
     lintOptions {
